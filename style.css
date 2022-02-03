@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Outfit-Light;
+    src: url(font/static/Outfit-Light.ttf);
+}
 body{
-    font-family: Outfit;
+    font-family: Outfit-Light;
     background-color: hsl(217, 54%, 11%);
     font-size: 18px;
 }
@@ -34,9 +38,9 @@ img{
 .title{
     color: hsl(0, 0%, 100%);
     font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 12px;
+    font-size: 20px;
+   /* line-height: 28px;*/
+    margin-top: 20px;
 }
 .pull-left{
     float: left;
@@ -51,6 +55,11 @@ hr{
 }
 .nft-footer{
     border-top: solid 1px hsl(215, 51%, 70%);
-    padding-top : 12px;
+    padding : 12px 0;
     margin-top: 12px;
+}
+.ethereum{
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 14px;
 }
