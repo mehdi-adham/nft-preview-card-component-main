@@ -59,7 +59,7 @@ hr{
     position: absolute;
     left: 0;
     top: 0;
-    transition: display 0.3s;
+    transition: opacity 0.3s;
 }
 .nft-img-overlay img {
     position :absolute;
