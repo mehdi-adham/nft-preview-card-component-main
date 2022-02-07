@@ -50,7 +50,7 @@ how to use flex display and hsla (with opacity 0.5) and  transition: opacity 0.5
       <a class="nft-img" href="#">
         <img alt="equilibrium image" src="images/image-equilibrium.jpg" />
         <div class="nft-img-overlay">
-          <img alt="view" src="/images/icon-view.svg">
+          <img alt="view" src="images/icon-view.svg">
         </div>
       </a>
 ```
