@@ -35,7 +35,7 @@ hr{
     border:none;
     margin: 12px 0;
 }
-.nft-container{
+main{
     border-radius: 15px;
     background-color: hsl(216, 50%, 16%);
     width: 350px;
@@ -43,6 +43,11 @@ hr{
     color: hsl(215, 51%, 70%);
     box-shadow: 0 23px 10px 18px rgba(0, 0, 0, 0.2),
     0 40px 12px 45px rgba(0, 0, 0, 0.1);
+}
+h1{
+    font-weight: 400;
+    font-size: 22px;
+    padding: 15px 0;
 }
 .nft-img{
     position: relative;
@@ -67,11 +72,6 @@ hr{
 }
 .nft-img-overlay:hover{
     opacity: 1;
-}
-.nft-title{
-    font-weight: 400;
-    font-size: 22px;
-    padding: 15px 0;
 }
 .nft-info{
     display: flex;
